@@ -1,0 +1,55 @@
+.sidebar {
+    outline: 1px solid #333;
+    float: left;
+    width: 200px;
+    margin-right: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    box-shadow: 0 0 3px 3px rgba(0, 0, 0, 0.1)}
+
+.list {
+    list-style: none;
+    margin-bottom: 20px;
+}
+.list-item {
+    border: 1px solid #ccc;
+    border-bottom: 0;
+}
+.list-item:last-child {
+    border-bottom: 1px solid #ccc;
+}
+.list-link {
+    display: block;
+    padding: 4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    
+}
+.list-link:hover {
+    text-indent: 16px;
+}
+
+/* SIDEBAR ICONS */
+.sidebar-icons {
+    text-align: center;
+}
+
+.icon {
+    display: block;
+    background-size: contain;
+    width: 30px;
+    height: 30px;
+    float: left;
+}
+
+.man {
+    background-image: url(../img/man.png);
+   }
+
+.female {
+    background-image: url(../img/girl.png);
+}
+
+.team {
+    background-image: url(../img/team.png);
+}
